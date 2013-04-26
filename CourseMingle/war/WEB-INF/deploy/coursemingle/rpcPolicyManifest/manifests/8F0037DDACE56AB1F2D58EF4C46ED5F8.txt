@@ -1,0 +1,2 @@
+serviceClass: com.coursemingle.client.LoginService
+path: 4E80F902CB7D7463FD7298740115168C.gwt.rpc

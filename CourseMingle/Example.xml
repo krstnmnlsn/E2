@@ -1,0 +1,24 @@
+<sections>
+	<section key="101" activity="Lecture" credits="3" catano="20803"
+		status=" " locationcode="UBC">
+		<teachingunits>
+			<teachingunit termcd="1" startwk="Sep 04, 2012" endwk="Nov 30, 2012">
+				<meetings>
+					<meeting term="1" day="Mon" starttime="9:00" endtime="10:00"
+						buildingcd="SCRF" building="Neville Scarfe" roomno="100" />
+					<meeting term="1" day="Wed" starttime="9:00" endtime="10:00"
+						buildingcd="SCRF" building="Neville Scarfe" roomno="100" />
+					<meeting term="1" day="Fri" starttime="9:00" endtime="10:00"
+						buildingcd="SCRF" building="Neville Scarfe" roomno="100" />
+				</meetings>
+			</teachingunit>
+		</teachingunits>
+		<instructors>
+			<instructor name="Singh, Santokh" ubcid="630842" />
+		</instructors>
+		<comments>
+			<comment
+				text="BIOL 111 is for students who have not completed Bi 12 or BIOL 112. Offered Term 1 and Summer Session only." />
+		</comments>
+	</section>
+</sections>

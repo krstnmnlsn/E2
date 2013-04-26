@@ -1,0 +1,5 @@
+# Module coursemingle
+# RPC service class, partial path of RPC policy file
+com.coursemingle.client.CourseManager, 4A74C979432F76E2D2E3276EEB427454.gwt.rpc
+com.coursemingle.client.UserManager, 596CC02A086673CC63226FF2F2E8955A.gwt.rpc
+com.coursemingle.client.LoginService, 4E80F902CB7D7463FD7298740115168C.gwt.rpc

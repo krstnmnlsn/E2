@@ -1,0 +1,2 @@
+serviceClass: com.coursemingle.client.CourseManager
+path: 509A69D3D72CE1842042A019F981A042.gwt.rpc

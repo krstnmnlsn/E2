@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee                http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>CourseMingle.html</welcome-file>
+  </welcome-file-list>
+
+  
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>SystemServiceServlet</servlet-name>
+    <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
+    <init-param>
+      <param-name>services</param-name>
+      <param-value/>
+    </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>SystemServiceServlet</servlet-name>
+    <url-pattern>/_ah/spi/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>FBAuth</servlet-name>
+    <servlet-class>com.coursemingle.server.FBAuth</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>FBAuth</servlet-name>
+    <url-pattern>/coursemingle/auth/*</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.coursemingle.server.LoginServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/coursemingle/login</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+    <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>com.coursemingle.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/coursemingle/greet</url-pattern>
+  </servlet-mapping>
+ 
+  
+  
+  <servlet>
+    <servlet-name>CourseManagerImpl</servlet-name>
+    <servlet-class>com.coursemingle.server.CourseManagerImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>CourseManagerImpl</servlet-name>
+    <url-pattern>/coursemingle/coursemanager</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
